@@ -1,0 +1,2770 @@
+[
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 1,
+        "fields": {
+            "nombre_region": "Arica y Parinacota",
+            "nombre_comuna": "Arica"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 2,
+        "fields": {
+            "nombre_region": "Arica y Parinacota",
+            "nombre_comuna": "Camarones"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 3,
+        "fields": {
+            "nombre_region": "Arica y Parinacota",
+            "nombre_comuna": "Putre"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 4,
+        "fields": {
+            "nombre_region": "Arica y Parinacota",
+            "nombre_comuna": "General Lagos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 5,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Iquique"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 6,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Alto Hospicio"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 7,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Pozo Almonte"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 8,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Camiña"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 9,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Colchane"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 10,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Huara"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 11,
+        "fields": {
+            "nombre_region": "Tarapacá",
+            "nombre_comuna": "Pica"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 12,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Antofagasta"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 13,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Mejillones"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 14,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Sierra Gorda"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 15,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Taltal"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 16,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Calama"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 17,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Ollagüe"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 18,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "San Pedro de Atacama"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 19,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "Tocopilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 20,
+        "fields": {
+            "nombre_region": "Antofagasta",
+            "nombre_comuna": "María Elena"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 21,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Copiapó"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 22,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Caldera"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 23,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Tierra Amarilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 24,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Chañaral"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 25,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Diego de Almagro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 26,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Vallenar"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 27,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Alto del Carmen"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 28,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Freirina"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 29,
+        "fields": {
+            "nombre_region": "Atacama",
+            "nombre_comuna": "Huasco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 30,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "La Serena"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 31,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Coquimbo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 32,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Andacollo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 33,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "La Higuera"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 34,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Paiguano"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 35,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Vicuña"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 36,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Illapel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 37,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Canela"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 38,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Los Vilos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 39,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Salamanca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 40,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Ovalle"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 41,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Combarbalá"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 42,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Monte Patria"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 43,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Punitaqui"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 44,
+        "fields": {
+            "nombre_region": "Coquimbo",
+            "nombre_comuna": "Río Hurtado"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 45,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Valparaíso"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 46,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Casablanca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 47,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Concón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 48,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Juan Fernández"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 49,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Puchuncaví"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 50,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Quintero"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 51,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Viña del Mar"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 52,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Isla de Pascua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 53,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Los Andes"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 54,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Calle Larga"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 55,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Rinconada"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 56,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "San Esteban"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 57,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "La Ligua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 58,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Cabildo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 59,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Papudo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 60,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Petorca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 61,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Zapallar"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 62,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Quillota"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 63,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Calera"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 64,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Hijuelas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 65,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "La Cruz"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 66,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Nogales"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 67,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "San Antonio"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 68,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Algarrobo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 69,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Cartagena"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 70,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "El Quisco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 71,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "El Tabo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 72,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Santo Domingo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 73,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "San Felipe"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 74,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Catemu"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 75,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Llaillay"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 76,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Panquehue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 77,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Putaendo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 78,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Santa María"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 79,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Quilpué"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 80,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Limache"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 81,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Olmué"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 82,
+        "fields": {
+            "nombre_region": "Valparaíso",
+            "nombre_comuna": "Villa Alemana"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 83,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Rancagua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 84,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Codegua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 85,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Coinco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 86,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Coltauco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 87,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Doñihue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 88,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Graneros"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 89,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Las Cabras"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 90,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Machalí"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 91,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Malloa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 92,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Mostazal"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 93,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Olivar"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 94,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Peumo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 95,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Pichidegua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 96,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Quinta de Tilcoco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 97,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Rengo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 98,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Requínoa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 99,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "San Vicente"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 100,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Pichilemu"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 101,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "La Estrella"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 102,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Litueche"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 103,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Marchihue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 104,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Navidad"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 105,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Paredones"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 106,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "San Fernando"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 107,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Chépica"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 108,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Chimbarongo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 109,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Lolol"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 110,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Nancagua"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 111,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Palmilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 112,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Peralillo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 113,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Placilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 114,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Pumanque"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 115,
+        "fields": {
+            "nombre_region": "Región del Libertador Gral. Bernardo O’Higgins",
+            "nombre_comuna": "Santa Cruz"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 116,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Talca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 117,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Constitución"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 118,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Curepto"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 119,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Empedrado"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 120,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Maule"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 121,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Pelarco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 122,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Pencahue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 123,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Río Claro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 124,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "San Clemente"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 125,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "San Rafael"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 126,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Cauquenes"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 127,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Chanco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 128,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Pelluhue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 129,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Curicó"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 130,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Hualañé"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 131,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Licantén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 132,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Molina"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 133,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Rauco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 134,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Romeral"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 135,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Sagrada Familia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 136,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Teno"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 137,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Vichuquén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 138,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Linares"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 139,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Colbún"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 140,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Longaví"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 141,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Parral"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 142,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Retiro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 143,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "San Javier"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 144,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Villa Alegre"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 145,
+        "fields": {
+            "nombre_region": "Región del Maule",
+            "nombre_comuna": "Yerbas Buenas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 146,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Cobquecura"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 147,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Coelemu"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 148,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Ninhue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 149,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Portezuelo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 150,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Quirihue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 151,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Ránquil"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 152,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Treguaco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 153,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Bulnes"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 154,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Chillán Viejo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 155,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Chillán"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 156,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "El Carmen"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 157,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Pemuco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 158,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Pinto"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 159,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Quillón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 160,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "San Ignacio"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 161,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Yungay"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 162,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Coihueco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 163,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "Ñiquén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 164,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "San Carlos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 165,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "San Fabián"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 166,
+        "fields": {
+            "nombre_region": "Región de Ñuble",
+            "nombre_comuna": "San Nicolás"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 167,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Concepción"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 168,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Coronel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 169,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Chiguayante"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 170,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Florida"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 171,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Hualqui"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 172,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Lota"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 173,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Penco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 174,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "San Pedro de la Paz"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 175,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Santa Juana"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 176,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Talcahuano"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 177,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Tomé"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 178,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Hualpén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 179,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Lebu"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 180,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Arauco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 181,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Cañete"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 182,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Contulmo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 183,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Curanilahue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 184,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Los Álamos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 185,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Tirúa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 186,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Los Ángeles"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 187,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Antuco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 188,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Cabrero"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 189,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Laja"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 190,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Mulchén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 191,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Nacimiento"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 192,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Negrete"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 193,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Quilaco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 194,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Quilleco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 195,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "San Rosendo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 196,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Santa Bárbara"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 197,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Tucapel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 198,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Yumbel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 199,
+        "fields": {
+            "nombre_region": "Región del Biobío",
+            "nombre_comuna": "Alto Biobío"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 200,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Temuco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 201,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Carahue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 202,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Cunco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 203,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Curarrehue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 204,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Freire"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 205,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Galvarino"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 206,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Gorbea"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 207,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Lautaro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 208,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Loncoche"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 209,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Melipeuco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 210,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Nueva Imperial"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 211,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Padre las Casas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 212,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Perquenco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 213,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Pitrufquén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 214,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Pucón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 215,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Saavedra"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 216,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Teodoro Schmidt"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 217,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Toltén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 218,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Vilcún"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 219,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Villarrica"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 220,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Cholchol"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 221,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Angol"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 222,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Collipulli"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 223,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Curacautín"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 224,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Ercilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 225,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Lonquimay"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 226,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Los Sauces"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 227,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Lumaco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 228,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Purén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 229,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Renaico"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 230,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Traiguén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 231,
+        "fields": {
+            "nombre_region": "Región de la Araucanía",
+            "nombre_comuna": "Victoria"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 232,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Valdivia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 233,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Corral"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 234,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Lanco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 235,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Los Lagos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 236,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Máfil"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 237,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Mariquina"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 238,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Paillaco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 239,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Panguipulli"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 240,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "La Unión"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 241,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Futrono"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 242,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Lago Ranco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 243,
+        "fields": {
+            "nombre_region": "Región de Los Ríos",
+            "nombre_comuna": "Río Bueno"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 244,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Puerto Montt"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 245,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Calbuco"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 246,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Cochamó"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 247,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Fresia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 248,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Frutillar"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 249,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Los Muermos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 250,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Llanquihue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 251,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Maullín"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 252,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Puerto Varas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 253,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Castro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 254,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Ancud"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 255,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Chonchi"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 256,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Curaco de Vélez"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 257,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Dalcahue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 258,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Puqueldón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 259,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Queilén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 260,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Quellón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 261,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Quemchi"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 262,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Quinchao"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 263,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Osorno"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 264,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Puerto Octay"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 265,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Purranque"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 266,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Puyehue"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 267,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Río Negro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 268,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "San Juan de la Costa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 269,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "San Pablo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 270,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Chaitén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 271,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Futaleufú"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 272,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Hualaihué"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 273,
+        "fields": {
+            "nombre_region": "Región de Los Lagos",
+            "nombre_comuna": "Palena"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 274,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Coihaique"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 275,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Lago Verde"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 276,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Aisén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 277,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Cisnes"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 278,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Guaitecas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 279,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Cochrane"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 280,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "O’Higgins"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 281,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Tortel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 282,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Chile Chico"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 283,
+        "fields": {
+            "nombre_region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+            "nombre_comuna": "Río Ibáñez"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 284,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Punta Arenas"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 285,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Laguna Blanca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 286,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Río Verde"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 287,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "San Gregorio"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 288,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Cabo de Hornos (Ex Navarino)"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 289,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Antártica"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 290,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Porvenir"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 291,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Primavera"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 292,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Timaukel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 293,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Natales"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 294,
+        "fields": {
+            "nombre_region": "Región de Magallanes y de la Antártica Chilena",
+            "nombre_comuna": "Torres del Paine"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 295,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Cerrillos"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 296,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Cerro Navia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 297,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Conchalí"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 298,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "El Bosque"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 299,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Estación Central"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 300,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Huechuraba"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 301,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Independencia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 302,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "La Cisterna"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 303,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "La Florida"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 304,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "La Granja"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 305,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "La Pintana"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 306,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "La Reina"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 307,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Las Condes"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 308,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Lo Barnechea"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 309,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Lo Espejo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 310,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Lo Prado"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 311,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Macul"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 312,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Maipú"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 313,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Ñuñoa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 314,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Pedro Aguirre Cerda"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 315,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Peñalolén"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 316,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Providencia"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 317,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Pudahuel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 318,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Quilicura"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 319,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Quinta Normal"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 320,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Recoleta"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 321,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Renca"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 322,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Santiago"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 323,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San Joaquín"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 324,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San Miguel"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 325,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San Ramón"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 326,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Vitacura"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 327,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Puente Alto"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 328,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Pirque"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 329,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San José de Maipo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 330,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Colina"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 331,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Lampa"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 332,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Tiltil"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 333,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San Bernardo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 334,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Buin"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 335,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Calera de Tango"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 336,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Paine"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 337,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Melipilla"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 338,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Alhué"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 339,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Curacaví"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 340,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "María Pinto"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 341,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "San Pedro"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 342,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Talagante"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 343,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "El Monte"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 344,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Isla de Maipo"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 345,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Padre Hurtado"
+        }
+    },
+    {
+        "model": "app_arriendos.ubicacion",
+        "pk": 346,
+        "fields": {
+            "nombre_region": "Región Metropolitana de Santiago",
+            "nombre_comuna": "Peñaflor"
+        }
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 1,
+        "fields": {
+            "calle": "Avenida Siempre Viva",
+            "numero": "742",
+            "depto": "",
+            "id_ubicacion": 76  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 2,
+        "fields": {
+            "calle": "Springfield",
+            "numero": "22",
+            "depto": "",
+            "id_ubicacion": 77  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 3,
+        "fields": {
+            "calle": "Vitacura",
+            "numero": "1045",
+            "depto": "28",
+            "id_ubicacion": 326  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 4,
+        "fields": {
+            "calle": "Villachica",
+            "numero": "695",
+            "depto": "",
+            "id_ubicacion": 322  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 5,
+        "fields": {
+            "calle": "Santa Fe",
+            "numero": "85",
+            "depto": "",
+            "id_ubicacion": 322  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 6,
+        "fields": {
+            "calle": "Avenida Siempre Viva",
+            "numero": "742",
+            "depto": "",
+            "id_ubicacion": 114  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 7,
+        "fields": {
+            "calle": "Vista hermosa",
+            "numero": "25",
+            "depto": "",
+            "id_ubicacion": 51  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 8,
+        "fields": {
+            "calle": "Santa Fe",
+            "numero": "69",
+            "depto": "1981",
+            "id_ubicacion": 54  
+        }
+    },
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 9,
+        "fields": {
+            "calle": "Los Pescadores",
+            "numero": "111",
+            "depto": "",
+            "id_ubicacion": 77  
+        }
+    },
+
+    {
+        "model": "app_arriendos.direccion",
+        "pk": 10,
+        "fields": {
+            "calle": "Pucuro",
+            "numero": "55",
+            "depto": "3201",
+            "id_ubicacion": 326  
+        }
+    }
+
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "model": "app_arriendos.inmuebles",
+        "pk": 1,
+        "fields": {
+            "id_user": "11111111-1",
+            "nombre": "Finca Gotica",
+            "descripcion": "Amplia y bella parcela de recreación y descanso",
+            "m2_construidos": 200,
+            "m2_terreno": 500,
+            "n_estacionamientos": 5,
+            "n_banos": 6,
+            "n_habitaciones": 10,
+            "tipo_inmueble": 3,
+            "precio_mensual": 2000000,
+            "id_direccion": 6,
+            "estado": "Disponible"
+        }
+    },
+    {
+        "model": "app_arriendos.inmuebles",
+        "pk": 2,
+        "fields": {
+            "id_user": "98765432-1",
+            "nombre": "Casa en Viña del Mar",
+            "descripcion": "Amplia casa cerca del mar.",
+            "m2_construidos": 120,
+            "m2_terreno": 200,
+            "n_estacionamientos": 2,
+            "n_banos": 2,
+            "n_habitaciones": 4,
+            "tipo_inmueble": 2,
+            "precio_mensual": 700000,
+            "id_direccion": 7,
+            "estado": "Disponible"
+        }
+    },
+    {
+        "model": "app_arriendos.inmuebles",
+        "pk": 3,
+        "fields": {
+            "id_user": "33333333-3",
+            "nombre": "La Carrá",
+            "descripcion": "Cómodo y espacioso departamento",
+            "m2_construidos": 80,
+            "m2_terreno": 200,
+            "n_estacionamientos": 2,
+            "n_banos": 3,
+            "n_habitaciones": 4,
+            "tipo_inmueble": 2,
+            "precio_mensual": 500000,
+            "id_direccion": 8,
+            "estado": "Disponible"
+        }
+    },
+    {
+        "model": "app_arriendos.inmuebles",
+        "pk": 4,
+        "fields": {
+            "id_user": "98765432-1",
+            "nombre": "La Primorosa",
+            "descripcion": "Bella casa patronal vista al mar",
+            "m2_construidos": 120,
+            "m2_terreno": 200,
+            "n_estacionamientos": 2,
+            "n_banos": 3,
+            "n_habitaciones": 4,
+            "tipo_inmueble": 2,
+            "precio_mensual": 850000,
+            "id_direccion": 9,
+            "estado": "Disponible"
+        }
+    },
+    {
+        "model": "app_arriendos.inmuebles",
+        "pk": 5,
+        "fields": {
+            "id_user": "11111111-1",
+            "nombre": "Penhouse",
+            "descripcion": "Amplio departamento con vista increible",
+            "m2_construidos": 200,
+            "m2_terreno": 150,
+            "n_estacionamientos": 2,
+            "n_banos": 3,
+            "n_habitaciones": 4,
+            "tipo_inmueble": 1,
+            "precio_mensual": 1200000,
+            "id_direccion": 10,
+            "estado": "Disponible"
+        }
+    }
+]

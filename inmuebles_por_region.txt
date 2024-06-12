@@ -1,0 +1,16 @@
+Región: Región del Libertador Gral. Bernardo O’Higgins
+  Nombre: Finca Gotica
+  Descripción: Amplia y bella parcela de recreación y descanso
+
+Región: Región Metropolitana de Santiago
+  Nombre: Penhouse
+  Descripción: Amplio departamento con vista increible
+
+Región: Valparaíso
+  Nombre: Casa en Viña del Mar
+  Descripción: Amplia casa cerca del mar.
+  Nombre: La Carrá
+  Descripción: Cómodo y espacioso departamento
+  Nombre: La Primorosa
+  Descripción: Bella casa patronal vista al mar
+

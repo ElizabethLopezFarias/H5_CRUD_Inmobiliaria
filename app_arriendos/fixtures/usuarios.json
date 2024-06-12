@@ -1,0 +1,67 @@
+[
+    {
+        "model": "app_arriendos.usuarios",
+        "pk": 1,
+        "fields": {
+            "rut": "12345678-9",
+            "nombre": "Juan",
+            "apellido": "Perez",
+            "id_direccion": 1,
+            "tipo_usuario": 2,
+            "telefono": "123456789",
+            "correo": "juan.perez@gmail.com"
+        }
+    },
+    {
+        "model": "app_arriendos.usuarios",
+        "pk": 2,
+        "fields": {
+            "rut": "98765432-1",
+            "nombre": "Lisa",
+            "apellido": "Simpson",
+            "id_direccion": 2,
+            "tipo_usuario": 1,
+            "telefono": "987654321",
+            "correo": "maria.gomez@gmail.com"
+        }
+    },
+    {
+        "model": "app_arriendos.usuarios",
+        "pk": 3,
+        "fields": {
+            "rut": "11111111-1",
+            "nombre": "Bruno",
+            "apellido": "Diaz",
+            "id_direccion": 3,
+            "tipo_usuario": 1,
+            "telefono": "9111111",
+            "correo": "bdebatman@gmail.com"
+        }
+    },
+    {
+        "model": "app_arriendos.usuarios",
+        "pk": 4,
+        "fields": {
+            "rut": "22222222-2",
+            "nombre": "Carlos",
+            "apellido": "Kent",
+            "id_direccion": 4,
+            "tipo_usuario": 2,
+            "telefono": "987654441",
+            "correo": "ckent@gmail.com"
+        }
+    },  
+    {
+        "model": "app_arriendos.usuarios",
+        "pk": 5,
+        "fields": {
+            "rut": "33333333-3",
+            "nombre": "Pedro",
+            "apellido": "Pe",
+            "id_direccion": 5,
+            "tipo_usuario": 1,
+            "telefono": "98777654321",
+            "correo": "pp@gmail.com"
+        }
+    }
+]

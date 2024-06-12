@@ -1,0 +1,25 @@
+
+{% block content %}
+{% if user.is_authenticated %}
+    <div>
+        <h1>Bienvenido a Mi Sitio de Arriendos</h1>
+        <p>Aquí puedes encontrar inmuebles disponibles para arrendar.</p>
+        <h3>Inmuebles</h3>
+        <ul>
+            {% for inmueble in inmuebles %}
+                <li>{{ inmueble.nombre }} - {{ inmueble.id_direccion }}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+    <a href="{% url 'logout' %}"">Logout</a>
+       
+    {% else %}
+    
+    <h1>Debes Iniciar sesion para acceder al contenido</h1>
+    <a href="{% url 'login_url' %}"">Login</a>
+    
+      
+      
+{% endif %}
+{% endblock %}
