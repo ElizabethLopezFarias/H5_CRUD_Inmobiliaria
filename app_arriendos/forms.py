@@ -21,19 +21,25 @@ class RegisterForm(UserCreationForm):
 class UsuarioForm(forms.ModelForm):
     class Meta:
         model = Usuarios
-        fields = ('tipo_usuario','rut','id_direccion','telefono')
+        fields = ('tipo_usuario','rut','telefono')
 
 
 
 class DireccionForm(forms.ModelForm):
     class Meta:
         model = Direccion
-        fields = ['calle', 'numero', 'depto', 'id_ubicacion']
+        fields = ['calle', 'numero', 'depto']
 
 class UbicacionForm(forms.ModelForm):
+    #carga de region y comuna mediante lista de opciones
+    comuna_region = forms.ModelChoiceField(queryset=Ubicacion.objects.all(), empty_label="Seleccione Comuna y Región")
+    
+
     class Meta:
         model = Ubicacion
-        fields = ['nombre_region', 'nombre_comuna']
+        fields = ['comuna_region']
+
+    
 
 # class UpdateProfileForm(forms.ModelForm):
 #     class Meta:
