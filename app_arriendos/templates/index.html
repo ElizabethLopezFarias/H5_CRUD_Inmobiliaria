@@ -2,6 +2,7 @@
 {% block content %}
 {% if user.is_authenticated %}
     <div>
+        {{ user.username }}
         <h1>Bienvenido a Mi Sitio de Arriendos</h1>
         <p>Aquí puedes encontrar inmuebles disponibles para arrendar.</p>
         <h3>Inmuebles</h3>

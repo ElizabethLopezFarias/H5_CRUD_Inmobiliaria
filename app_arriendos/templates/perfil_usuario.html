@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfil de Usuario</title>
+</head>
+<body>
+    <h1>Tus Datos</h1>
+    <p>Nombre de usuario: {{ usuario.username }}</p>
+    <p>Nombre: {{ usuario.first_name }}</p>
+    <p>Apellido: {{ usuario.last_name }}</p>
+    <p>Email: {{ usuario.email }}</p>
+    <p>Tipo Usuario: {{ perfil.tipo_usuario }}</p>
+    <p>Rut: {{ perfil.rut }}</p>
+    <p>Telefono: {{ perfil.telefono }}</p>
+    <p>Calle: {{ direccion.calle }}</p>
+    <p>Numero: {{ direccion.numero }}</p>
+    <p>Depto: {{ direccion.depto }}</p>
+    <p>Comuna: {{ direccion.id_ubicacion.nombre_comuna }}</p>
+    <p>Región: {{ direccion.id_ubicacion.nombre_region }}</p>
+</body>
+</html>
+
