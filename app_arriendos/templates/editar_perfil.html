@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Perfil</title>
+</head>
+<body>
+    <h1>Editar Perfil</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ update_form.as_p }}
+        {{ usuario_form.as_p }}
+        {{ direccion_form.as_p }}
+        {{ ubicacion_form.as_p }}
+        <button type="submit">Guardar Cambios</button>
+    </form>
+    <br>
+    <a href="{% url 'perfil_usuario' %}">Cancelar</a>
+</body>
+</html>

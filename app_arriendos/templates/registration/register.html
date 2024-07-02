@@ -1,5 +1,28 @@
-{% block content %}
-    <h2>Registro</h2>
+<!DOCTYPE html>
+<html>
+<!-- <head>
+    <title>Registro de Usuario</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#id_region').change(function() {
+                var region_name = $(this).val();
+                $.ajax({
+                    url: "{% url 'ajax_load_comunas' %}",
+                    data: {
+                        'region_name': region_name
+                    },
+                    success: function(data) {
+                        $("#id_comuna").html(data);
+                    }
+                });
+            });
+        });
+    </script>
+</head> -->
+<body>
+    <div class="container mt-5">
+        <h2>Registro</h2>
     <form method="post">
         {% csrf_token %}
         {{ register_form.as_p }}
@@ -12,6 +35,6 @@
         {{ ubicacion_form.errors }}
         <button type="submit" class="btn btn-primary">Registrar</button>
     </form>
-</div>
-{% endblock %}
-
+    </div>
+</body>
+</html>

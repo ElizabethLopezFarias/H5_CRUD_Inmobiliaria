@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
 from .models import Inmuebles, Ubicacion, Usuarios, Direccion
-from .forms import RegisterForm, DireccionForm, UbicacionForm, UsuarioForm
+from .forms import RegisterForm, DireccionForm, UbicacionForm, UsuarioForm, UpdateProfileForm
 from django.contrib import messages
 from django.contrib.auth import login, authenticate
 from django.shortcuts import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
+from django.http import JsonResponse
+from django.template.loader import render_to_string
 
 
 # Vista inicio
@@ -60,7 +62,7 @@ def register_view(request):
             direccion.id_ubicacion = ubicacion
             direccion.save()
 
-            # Asigna la dirección al usuario y guárdalo
+            # Asigna la dirección al usuario y luego lo guarda
             usuario.id_direccion = direccion
             usuario.save()
 
@@ -96,6 +98,7 @@ def register_view(request):
             }
         return render(request, 'registration/register.html', context)
     
+    
 @login_required
 def perfil_usuario(request):
     usuario = request.user
@@ -119,36 +122,49 @@ def perfil_usuario(request):
 
 
 
+@login_required
+def editar_perfil(request):
+    usuario = request.user
+    perfil = Usuarios.objects.filter(usuario=usuario).first()
+
+    if perfil:
+        direccion = perfil.id_direccion
+    else:
+        direccion = None
+
+    if request.method == 'POST':
+        update_form = UpdateProfileForm(request.POST, instance=usuario)
+        usuario_form = UsuarioForm(request.POST, instance=perfil)
+        direccion_form = DireccionForm(request.POST, instance=direccion)
+        ubicacion_form = UbicacionForm(request.POST, instance=direccion)
+
+        if update_form.is_valid() and usuario_form.is_valid() and direccion_form.is_valid() and ubicacion_form.is_valid():
+            # Guarda la ubicación en la tabla de direcciones
+            direccion = direccion_form.save(commit=False)
+            direccion.save()
+
+            # Asigna la dirección al usuario y luego lo guarda
+            usuario.id_direccion = direccion
+            usuario.save()
+            
+            direccion.save()
+            return redirect('perfil_usuario')
+    else:
+        update_form = UpdateProfileForm(instance=usuario)
+        usuario_form = UsuarioForm(instance=perfil)
+        direccion_form = DireccionForm(instance=direccion)
+        ubicacion_form = UbicacionForm(instance=direccion)
+
+    context = {
+        'update_form': update_form,
+        'usuario_form': usuario_form,
+        'direccion_form': direccion_form,
+        'ubicacion_form': ubicacion_form
+        }
+    return render(request, 'editar_perfil.html', context)
 
 
-
-
-
-# @login_required
-# def perfil_usuario(request):
-#     usuario = request.user
-#     tipo = Usuarios.objects.get(usuario=usuario).tipo_usuario.tipo
-
-#     perfil = Usuarios.objects.filter(usuario=usuario)
-#     if perfil.exists():
-#         perfil=perfil[0]
-#     else:
-#         perfil = None
-#         #poder manejar la excepcion
-
-#     direccion = Direccion.objects.filter(id_direccion=usuario)
-#     if direccion.exists():
-#         direccion=direccion[0]
-#     else:
-#         direccion = None
-#         #poder manejar la excepcion
-#     context = {
-#         'usuario': usuario,
-#         'perfil':perfil,
-#         'tipo':tipo,
-#         'direccion': direccion
-#         }
-#     return render(request, 'perfil_usuario.html',context)
-    
-
-    
+def load_comunas(request):
+     region_name = request.GET.get('region_name')
+     comunas = Ubicacion.objects.filter(nombre_region=region_name).values_list('nombre_comuna', flat=True)
+     return JsonResponse(render_to_string('comunas_dropdown_list_options.html', {'comunas': comunas}), safe=False)
