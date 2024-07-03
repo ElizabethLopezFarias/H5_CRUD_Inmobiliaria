@@ -1,18 +1,24 @@
 {% extends 'base.html' %}
 
-{% block title %}Editar Perfil{% endblock %}
+{% block title %}Editar Inmueble{% endblock %}
 
 {% block content %}
-    <h1>Editar Perfil</h1>
+
+<body>
+    <h1>Editar Inmueble</h1>
     <form method="post">
         {% csrf_token %}
-        {{ update_form.as_p }}
-        {{ usuario_form.as_p }}
+        <h2>Datos del Inmueble</h2>
+        {{ inmueble_form.as_p }}
+        
+        <h2>Dirección</h2>
         {{ direccion_form.as_p }}
+        
+        <h2>Ubicación</h2>
         {{ ubicacion_form.as_p }}
+        
         <button type="submit">Guardar Cambios</button>
     </form>
-    <br>
-    <a href="{% url 'perfil_usuario' %}">Cancelar</a>
 </body>
+
 {% endblock %}

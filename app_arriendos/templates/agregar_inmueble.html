@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Agregar Inmueble{% endblock %}
+
+{% block content %}
+
+<body>
+    <h1>Agregar Nuevo Inmueble</h1>
+    <form method="post">
+        {% csrf_token %}
+        <h2>Datos del Inmueble</h2>
+        {{ inmueble_form.as_p }}
+        
+        <h2>Dirección</h2>
+        {{ direccion_form.as_p }}
+        
+        <h2>Ubicación</h2>
+        {{ ubicacion_form.as_p }}
+        
+        <button type="submit">Guardar Inmueble</button>
+    </form>
+</body>
+
+{% endblock %}

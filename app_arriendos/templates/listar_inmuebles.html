@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Ver Inmuebles{% endblock %}
+
+{% block content %}
+
+<main class="container mt-4">
+    <h1>Inmuebles Disponibles</h1>
+    <div class="row">
+        {% for inmueble in inmuebles %}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ inmueble.nombre }}</h5>
+                        <p class="card-text">{{ inmueble.descripcion }}</p>
+                        <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
+                        <p><strong>Ubicación:</strong> {{ inmueble.id_direccion.id_ubicacion }}</p>
+                        <p><strong>Precio Mensual:</strong> {{ inmueble.precio_mensual }} CL</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</main>
+
+{% endblock %}

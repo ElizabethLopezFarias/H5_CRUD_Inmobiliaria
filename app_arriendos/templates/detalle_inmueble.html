@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalle Inmueble{% endblock %}
+
+{% block content %}
+
+<h1>Detalle de la Propiedad</h1>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{ inmueble.nombre }}</h5>
+        <p class="card-text">{{ inmueble.descripcion }}</p>
+        <p><strong>Metros Construidos:</strong> {{ inmueble.m2_construidos }} m²</p>
+        <p><strong>Metros Terreno:</strong> {{ inmueble.m2_terreno }} m²</p>
+        <p><strong>Estacionamientos:</strong> {{ inmueble.n_estacionamientos }}</p>
+        <p><strong>Baños:</strong> {{ inmueble.n_banos }}</p>
+        <p><strong>Habitaciones:</strong> {{ inmueble.n_habitaciones }}</p>
+        <p><strong>Tipo de Inmueble:</strong> {{ inmueble.tipo_inmueble.tipo }}</p>
+        <p><strong>Precio Mensual:</strong> {{ inmueble.precio_mensual }} CL</p>
+        <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
+        <p><strong>Ubicación:</strong> {{ inmueble.id_direccion.id_ubicacion }}</p>
+        <p><strong>Estado:</strong> {{ inmueble.estado }}</p>
+    </div>
+</div>
+<a href="{% url 'home' %}" class="btn btn-primary mt-3">Volver a listado</a>
+</main>
+
+{% endblock %}

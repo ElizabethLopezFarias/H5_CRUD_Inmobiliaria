@@ -3,9 +3,9 @@
         "model": "app_arriendos.inmuebles",
         "pk": 1,
         "fields": {
-            "id_user": "11111111-1",
-            "nombre": "Finca Gotica",
-            "descripcion": "Amplia y bella parcela de recreación y descanso",
+            "id_user": "66693696-3",
+            "nombre": "Baticueva",
+            "descripcion": "Amplia casa estilo castillo",
             "m2_construidos": 200,
             "m2_terreno": 500,
             "n_estacionamientos": 5,
@@ -39,7 +39,7 @@
         "model": "app_arriendos.inmuebles",
         "pk": 3,
         "fields": {
-            "id_user": "33333333-3",
+            "id_user": "456749832-1",
             "nombre": "La Carrá",
             "descripcion": "Cómodo y espacioso departamento",
             "m2_construidos": 80,
@@ -75,7 +75,7 @@
         "model": "app_arriendos.inmuebles",
         "pk": 5,
         "fields": {
-            "id_user": "11111111-1",
+            "id_user": "66693696-3",
             "nombre": "Penhouse",
             "descripcion": "Amplio departamento con vista increible",
             "m2_construidos": 200,

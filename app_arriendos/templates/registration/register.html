@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-<!-- <head>
-    <title>Registro de Usuario</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#id_region').change(function() {
-                var region_name = $(this).val();
-                $.ajax({
-                    url: "{% url 'ajax_load_comunas' %}",
-                    data: {
-                        'region_name': region_name
-                    },
-                    success: function(data) {
-                        $("#id_comuna").html(data);
-                    }
-                });
-            });
-        });
-    </script>
-</head> -->
+{% extends 'base.html' %}
+
+{% block title %}Iniciar Sesión{% endblock %}
+
+{% block content %}
 <body>
     <div class="container mt-5">
         <h2>Registro</h2>
@@ -37,4 +20,4 @@
     </form>
     </div>
 </body>
-</html>
+{% endblock %}

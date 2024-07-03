@@ -1,26 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
 
 {% block content %}
 {% if user.is_authenticated %}
     <div>
-        {{ user.username }}
-        <h1>Bienvenido a Mi Sitio de Arriendos</h1>
-        <p>Aquí puedes encontrar inmuebles disponibles para arrendar.</p>
-        <h3>Inmuebles</h3>
-        <ul>
-            {% for inmueble in inmuebles %}
-                <li>{{ inmueble.nombre }} - {{ inmueble.id_direccion }}</li>
-            {% endfor %}
-        </ul>
-
+        <h1>Bienvenido {{ user.username }}</h1>
+        
+        {% if tipo_usuario == 'Arrendatario' %}
+            <p>Listado de propiedades disponibles</p>
+            <div class="cards">
+                {% for inmueble in inmuebles %}
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ inmueble.nombre }}</h5>
+                                <p class="card-text">{{ inmueble.descripcion }}</p>
+                                <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
+                                <p><strong>Ubicación:</strong> {{ inmueble.id_direccion.id_ubicacion }}</p>
+                                <p><strong>Precio Mensual:</strong> {{ inmueble.precio_mensual }} CL</p>
+                                <a href="{% url 'detalle_inmueble' inmueble.id_inmueble %}">Ver Detalle</a>
+                            </div>
+                        </div>
+                        
+                {% endfor %}
+            </div>
+        {% elif tipo_usuario == 'Arrendador' %}
+            <p>Listado de tus propiedades</p>
+            <div class="cards">
+                {% for inmueble in inmuebles %}
+                    <div class="card">
+                        <h3>{{ inmueble.nombre }}</h3>
+                        <p><strong>Descripción:</strong> {{ inmueble.descripcion }}</p>
+                        <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
+                        <!-- Agregar más detalles según sea necesario -->
+                        <a href="{% url 'editar_inmueble' inmueble.id_inmueble %}">Editar</a>
+                        <form action="{% url 'borrar_inmueble' inmueble.id_inmueble %}" method="post" style="display:inline;">
+                            {% csrf_token %}
+                            <button type="submit">Borrar</button>
+                        </form>
+                    </div>
+                {% endfor %}
+            </div>
+            <a href="{% url 'agregar_inmueble' %}">Agregar Inmuebles</a>
+        {% endif %}
     </div>
-    <a href="{% url 'logout' %}"">Logout</a>
-       
-    {% else %}
-    
-    <h1>Debes Iniciar sesion para acceder al contenido</h1>
-    <a href="{% url 'login_url' %}"">Login</a>
-    
-      
-      
+{% else %}
+    <h1>Bienvenido a nuestro sitio de arriendos</h1>
+    <p>Por favor, inicia sesión para ver y gestionar tus propiedades.</p>
+    <a href="{% url 'login' %}">Login</a>
+    <p>Si no tienes una cuenta, puedes <a href="{% url 'register' %}">registrarte aquí</a>.</p>
 {% endif %}
 {% endblock %}

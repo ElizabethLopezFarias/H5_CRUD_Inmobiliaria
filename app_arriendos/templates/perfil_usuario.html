@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Perfil de Usuario</title>
-</head>
+{% extends 'base.html' %}
+
+{% block title %}Perfil de Usuario{% endblock %}
+
+{% block content %}
 <body>
     <h1>Tus Datos</h1>
     <p>Nombre de usuario: {{ usuario.username }}</p>
@@ -20,5 +20,5 @@
     <br><br>
     <a href="{% url 'editar_perfil' %}">Editar Perfil</a>
 </body>
-</html>
+{% endblock %}
 
