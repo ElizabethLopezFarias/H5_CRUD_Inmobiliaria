@@ -21,7 +21,9 @@
         <p><strong>Estado:</strong> {{ inmueble.estado }}</p>
     </div>
 </div>
-<a href="{% url 'home' %}" class="btn btn-primary mt-3">Volver a listado</a>
+<a href="{% url 'solicitar_reserva' inmueble.id_inmueble %}" class="btn btn-primary mt-3">Solicitar Reserva</a>
+<br>
+<a href="{% url 'home' %}">Volver a listado</a>
 </main>
 
 {% endblock %}

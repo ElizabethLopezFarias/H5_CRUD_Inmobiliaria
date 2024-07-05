@@ -1,34 +1,52 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Inmuebles, Ubicacion, Usuarios, Direccion, Tipo_usuario
-from .forms import RegisterForm, DireccionForm, UbicacionForm, UsuarioForm, UpdateProfileForm, InmuebleForm
+from .models import Inmuebles, Ubicacion, Usuarios, Direccion, Tipo_usuario, Tipo_inmueble, Reserva, Notificacion
+from .forms import RegisterForm, DireccionForm, UbicacionForm, UsuarioForm, UpdateProfileForm, InmuebleForm, ReservaForm
 from django.contrib import messages
 from django.contrib.auth import login, authenticate
 from django.shortcuts import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.template.loader import render_to_string
+from django.core.mail import send_mail
 
 
 # Vista inicio
 def indexView(request):
     inmuebles = None
     tipo_usuario = None
+    comunas = Ubicacion.objects.values_list('nombre_comuna', flat=True).distinct()
+    regiones = Ubicacion.objects.values_list('nombre_region', flat=True).distinct()
+    tipos_inmueble = Tipo_inmueble.objects.values_list('tipo', flat=True).distinct()
 
     if request.user.is_authenticated:
         usuario = get_object_or_404(Usuarios, usuario=request.user)
         tipo_usuario = usuario.tipo_usuario.tipo
 
-        if tipo_usuario == 'Arrendatario':
-            inmuebles = Inmuebles.objects.filter(estado='Disponible')
-        elif tipo_usuario == 'Arrendador':
+        if tipo_usuario == 'Arrendador':
             inmuebles = Inmuebles.objects.filter(id_user=usuario)
+        elif tipo_usuario == 'Arrendatario':
+            inmuebles = Inmuebles.objects.filter(estado='Disponible')
+
+        # Filtrado por comuna, región y tipo de inmueble
+        comuna = request.GET.get('comuna')
+        region = request.GET.get('region')
+        tipo_inmueble = request.GET.get('tipo_inmueble')
+
+        if comuna:
+            inmuebles = inmuebles.filter(id_direccion__id_ubicacion__nombre_comuna=comuna)
+        if region:
+            inmuebles = inmuebles.filter(id_direccion__id_ubicacion__nombre_region=region)
+        if tipo_inmueble:
+            inmuebles = inmuebles.filter(tipo_inmueble__tipo=tipo_inmueble)
 
     context = {
         'inmuebles': inmuebles,
-        'tipo_usuario': tipo_usuario
+        'tipo_usuario': tipo_usuario,
+        'comunas': comunas,
+        'regiones': regiones,
+        'tipos_inmueble': tipos_inmueble
     }
     return render(request, 'index.html', context)
-
 
 
 
@@ -274,7 +292,30 @@ def detalle_inmueble(request, id):
     }
     return render(request, 'detalle_inmueble.html', context)
 
-# def load_comunas(request):
-#      region_name = request.GET.get('region_name')
-#      comunas = Ubicacion.objects.filter(nombre_region=region_name).values_list('nombre_comuna', flat=True)
-#      return JsonResponse(render_to_string('comunas_dropdown_list_options.html', {'comunas': comunas}), safe=False)
+@login_required
+def solicitar_reserva(request, inmueble_id):
+    inmueble = get_object_or_404(Inmuebles, id_inmueble=inmueble_id)
+    if request.method == 'POST':
+        form = ReservaForm(request.POST)
+        if form.is_valid():
+            reserva = form.save(commit=False)
+            reserva.inmueble = inmueble
+            reserva.arrendatario = request.user
+            reserva.save()
+
+            # Crear notificación para el arrendador
+            mensaje = f'El usuario {request.user.username} ha solicitado una reserva para el inmueble {inmueble.nombre}.\n\nMensaje:\n{reserva.mensaje}'
+            Notificacion.objects.create(
+                usuario=inmueble.id_user.usuario,
+                mensaje=mensaje
+            )
+
+            return redirect('home')
+    else:
+        form = ReservaForm()
+    return render(request, 'solicitar_reserva.html', {'form': form, 'inmueble': inmueble})
+
+@login_required
+def ver_notificaciones(request):
+    notificaciones = request.user.notificaciones.all()
+    return render(request, 'ver_notificaciones.html', {'notificaciones': notificaciones})

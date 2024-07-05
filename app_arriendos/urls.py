@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 from django.contrib.auth.views import LoginView, LogoutView
-from .views import register_view, editar_perfil, agregar_inmueble, editar_inmueble, borrar_inmueble, listar_inmuebles, detalle_inmueble
+from .views import register_view, editar_perfil, agregar_inmueble, editar_inmueble, borrar_inmueble, listar_inmuebles, detalle_inmueble, solicitar_reserva, ver_notificaciones
 
 
 urlpatterns = [
@@ -16,5 +16,7 @@ urlpatterns = [
     path('borrar_inmueble/<int:id>/', borrar_inmueble, name='borrar_inmueble'),
     path('listar_inmuebles/', listar_inmuebles, name='listar_inmuebles'),
     path('detalle_inmueble/<int:id>/', detalle_inmueble, name='detalle_inmueble'),
+    path('solicitar_reserva/<int:inmueble_id>/', solicitar_reserva, name='solicitar_reserva'),
+    path('notificaciones/', ver_notificaciones, name='ver_notificaciones'),
 
 ]

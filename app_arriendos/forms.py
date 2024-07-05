@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from .models import Usuarios, Direccion, Ubicacion, Inmuebles
+from .models import Usuarios, Direccion, Ubicacion, Inmuebles, Reserva
 from django.contrib.auth.forms import UserCreationForm
 
 
@@ -56,3 +56,9 @@ class InmuebleForm(forms.ModelForm):
     class Meta:
         model = Inmuebles
         fields = ['nombre', 'descripcion', 'm2_construidos', 'm2_terreno', 'n_estacionamientos', 'n_banos', 'n_habitaciones', 'tipo_inmueble', 'precio_mensual', 'estado']
+
+
+class ReservaForm(forms.ModelForm):
+    class Meta:
+        model = Reserva
+        fields = ['mensaje']

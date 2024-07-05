@@ -9,8 +9,39 @@
         
         {% if tipo_usuario == 'Arrendatario' %}
             <p>Listado de propiedades disponibles</p>
-            <div class="cards">
+            <form method="get" class="form-inline mb-4">
+                <div class="form-group mr-2">
+                    <label for="comuna" class="mr-2">Comuna:</label>
+                    <select name="comuna" id="comuna" class="form-control">
+                        <option value="">Todas</option>
+                        {% for comuna in comunas %}
+                            <option value="{{ comuna }}" {% if comuna == request.GET.comuna %}selected{% endif %}>{{ comuna }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group mr-2">
+                    <label for="region" class="mr-2">Región:</label>
+                    <select name="region" id="region" class="form-control">
+                        <option value="">Todas</option>
+                        {% for region in regiones %}
+                            <option value="{{ region }}" {% if region == request.GET.region %}selected{% endif %}>{{ region }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group mr-2">
+                    <label for="tipo_inmueble" class="mr-2">Tipo de Inmueble:</label>
+                    <select name="tipo_inmueble" id="tipo_inmueble" class="form-control">
+                        <option value="">Todos</option>
+                        {% for tipo in tipos_inmueble %}
+                            <option value="{{ tipo }}" {% if tipo == request.GET.tipo_inmueble %}selected{% endif %}>{{ tipo }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </form>
+            <div class="row">
                 {% for inmueble in inmuebles %}
+                    <div class="col-md-6">
                         <div class="card mb-4">
                             <div class="card-body">
                                 <h5 class="card-title">{{ inmueble.nombre }}</h5>
@@ -18,36 +49,73 @@
                                 <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
                                 <p><strong>Ubicación:</strong> {{ inmueble.id_direccion.id_ubicacion }}</p>
                                 <p><strong>Precio Mensual:</strong> {{ inmueble.precio_mensual }} CL</p>
-                                <a href="{% url 'detalle_inmueble' inmueble.id_inmueble %}">Ver Detalle</a>
+                                <a href="{% url 'detalle_inmueble' inmueble.id_inmueble %}" class="btn btn-primary mt-3">Ver Detalle</a>
+                                
+                                
                             </div>
                         </div>
-                        
-                {% endfor %}
-            </div>
-        {% elif tipo_usuario == 'Arrendador' %}
-            <p>Listado de tus propiedades</p>
-            <div class="cards">
-                {% for inmueble in inmuebles %}
-                    <div class="card">
-                        <h3>{{ inmueble.nombre }}</h3>
-                        <p><strong>Descripción:</strong> {{ inmueble.descripcion }}</p>
-                        <p><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
-                        <!-- Agregar más detalles según sea necesario -->
-                        <a href="{% url 'editar_inmueble' inmueble.id_inmueble %}">Editar</a>
-                        <form action="{% url 'borrar_inmueble' inmueble.id_inmueble %}" method="post" style="display:inline;">
-                            {% csrf_token %}
-                            <button type="submit">Borrar</button>
-                        </form>
                     </div>
                 {% endfor %}
             </div>
-            <a href="{% url 'agregar_inmueble' %}">Agregar Inmuebles</a>
+        {% elif tipo_usuario == 'Arrendador' %}
+        <a class="btn btn-primary" href="{% url 'ver_notificaciones' %}">Notificaciones</a>
+            <p>Listado de tus propiedades</p>
+            <form method="get" class="form-inline mb-4">
+                <div class="form-group mr-2">
+                    <label for="comuna" class="mr-2">Comuna:</label>
+                    <select name="comuna" id="comuna" class="form-control">
+                        <option value="">Todas</option>
+                        {% for comuna in comunas %}
+                            <option value="{{ comuna }}" {% if comuna == request.GET.comuna %}selected{% endif %}>{{ comuna }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group mr-2">
+                    <label for="region" class="mr-2">Región:</label>
+                    <select name="region" id="region" class="form-control">
+                        <option value="">Todas</option>
+                        {% for region in regiones %}
+                            <option value="{{ region }}" {% if region == request.GET.region %}selected{% endif %}>{{ region }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group mr-2">
+                    <label for="tipo_inmueble" class="mr-2">Tipo de Inmueble:</label>
+                    <select name="tipo_inmueble" id="tipo_inmueble" class="form-control">
+                        <option value="">Todos</option>
+                        {% for tipo in tipos_inmueble %}
+                            <option value="{{ tipo }}" {% if tipo == request.GET.tipo_inmueble %}selected{% endif %}>{{ tipo }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </form>
+            <div class="row">
+                {% for inmueble in inmuebles %}
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">{{ inmueble.nombre }}</h3>
+                                <p class="card-text"><strong>Descripción:</strong> {{ inmueble.descripcion }}</p>
+                                <p class="card-text"><strong>Dirección:</strong> {{ inmueble.id_direccion }}</p>
+
+                                <a href="{% url 'editar_inmueble' inmueble.id_inmueble %}" class="btn btn-primary">Editar</a>
+                                <form action="{% url 'borrar_inmueble' inmueble.id_inmueble %}" method="post" style="display:inline;">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-danger">Borrar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <a href="{% url 'agregar_inmueble' %}" class="btn btn-success">Agregar Inmuebles</a>
         {% endif %}
     </div>
 {% else %}
     <h1>Bienvenido a nuestro sitio de arriendos</h1>
     <p>Por favor, inicia sesión para ver y gestionar tus propiedades.</p>
-    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'login' %}" class="btn btn-primary">Iniciar Sesión</a>
     <p>Si no tienes una cuenta, puedes <a href="{% url 'register' %}">registrarte aquí</a>.</p>
 {% endif %}
 {% endblock %}

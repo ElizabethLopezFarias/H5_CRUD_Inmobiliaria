@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Tipo_inmueble(models.Model):
     id_tipo_inmueble = models.AutoField(primary_key=True)
@@ -83,3 +84,23 @@ class Inmuebles(models.Model):
 
     def __str__(self):
         return self.nombre
+
+
+class Reserva(models.Model):
+    inmueble = models.ForeignKey(Inmuebles, on_delete=models.CASCADE)
+    arrendatario = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reservas')
+    mensaje = models.TextField()
+    fecha_solicitud = models.DateTimeField(auto_now_add=True)
+    estado = models.CharField(max_length=20, choices=[('Pendiente', 'Pendiente'), ('Aceptada', 'Aceptada'), ('Rechazada', 'Rechazada')], default='Pendiente')
+
+    def __str__(self):
+        return f"Reserva de {self.arrendatario.username} para {self.inmueble.nombre}"
+    
+class Notificacion(models.Model):
+    usuario = models.ForeignKey(User, on_delete=models.CASCADE, related_name='notificaciones')
+    mensaje = models.TextField()
+    leido = models.BooleanField(default=False)
+    fecha = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Notificación para {self.usuario.username} - {'Leído' if self.leido else 'No leído'}"

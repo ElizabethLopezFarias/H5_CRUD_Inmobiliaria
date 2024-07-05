@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Notificaciones{% endblock %}
+
+{% block content %}
+<h1>Notificaciones</h1>
+        <ul class="list-group">
+            {% for notificacion in notificaciones %}
+                <li class="list-group-item {% if notificacion.leido %}list-group-item-secondary{% endif %}">
+                    {{ notificacion.mensaje }}
+                    <small class="text-muted">{{ notificacion.fecha }}</small>
+                </li>
+            {% endfor %}
+        </ul>
+
+{% endblock %}
